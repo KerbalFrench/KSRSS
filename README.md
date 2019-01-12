@@ -13,3 +13,18 @@ Need :
 Kopernicus : https://forum.kerbalspaceprogram.com/index.php?/topic/140580-161-1-backports-kopernicus-kittopiatech/
 
 Kopernicus Expansion (for footprints) : https://github.com/StollD/KopernicusExpansion-Continued/releases
+
+Install : 
+
+> Installez Kopernicus : https://github.com/Kopernicus/Kopernicus/releases
+/!\ Installez la version de Kopernicus correspondant à celle de votre jeu /!\
+
+> Installez KSRSS-Textures : https://github.com/KerbalFrench/KSRSS-Textures/releases
+
+> Installez KSRSS : https://github.com/KerbalFrench/KSRSS/releases
+
+> Installez CTTP : https://github.com/Galileo88/Community-Terrain-Texture-Pack/releases
+
+> Installez KEX-EVAFootprints (optionnel) : https://github.com/StollD/KopernicusExpansion-Continued/releases
+
+
