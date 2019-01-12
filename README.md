@@ -12,4 +12,4 @@ Need :
 
 Kopernicus : https://forum.kerbalspaceprogram.com/index.php?/topic/140580-161-1-backports-kopernicus-kittopiatech/
 
-Kopernicus Expansion (for footprints) : https://github.com/HappyFaceIndustries/KopernicusExpansion/releases/tag/0.2.0
+Kopernicus Expansion (for footprints) : https://github.com/StollD/KopernicusExpansion-Continued/releases
