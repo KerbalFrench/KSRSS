@@ -8,6 +8,9 @@ The file KSRSS/Textures/grass00.dds is licensed MIT by Avera9eJoe and come from 
 
 The \*.cfg come from the RealSolarSystem mod(https://forum.kerbalspaceprogram.com/index.php?/topic/177216-145-real-solar-system-v131-03-sep-2018/) and were modified by the KerbalFrench team.
 
+All the files in KSRSS/KSRSSKopernicus/Comets come from the [RSS Expansion](https://github.com/PhineasFreak/RSSExpansion) mod, originally by pozine.
+
+
 Need : 
 
 Kopernicus : https://forum.kerbalspaceprogram.com/index.php?/topic/140580-161-1-backports-kopernicus-kittopiatech/
