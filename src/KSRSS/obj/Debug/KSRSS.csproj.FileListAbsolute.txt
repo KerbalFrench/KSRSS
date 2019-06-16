@@ -1,7 +1,6 @@
 /home/antony/Projects/KSRSS/KSRSS/bin/Debug/KSRSS.dll
 /home/antony/Projects/KSRSS/KSRSS/bin/Debug/KSRSS.pdb
 /home/antony/Projects/KSRSS/KSRSS/bin/Debug/Assembly-CSharp.dll
-/home/antony/Projects/KSRSS/KSRSS/bin/Debug/JsonFx.dll
 /home/antony/Projects/KSRSS/KSRSS/bin/Debug/UnityEngine.dll
 /home/antony/Projects/KSRSS/KSRSS/bin/Debug/UnityEngine.UI.dll
 /home/antony/Projects/KSRSS/KSRSS/bin/Debug/Assembly-CSharp-firstpass.dll
@@ -10,16 +9,8 @@
 /home/antony/Projects/KSRSS/KSRSS/bin/Debug/Mono.Cecil.dll
 /home/antony/Projects/KSRSS/KSRSS/bin/Debug/Ionic.Zip.dll
 /home/antony/Projects/KSRSS/KSRSS/bin/Debug/UnityEngine.dll.mdb
-/home/antony/Projects/KSRSS/KSRSS/bin/Debug/JsonFx.xml
 /home/antony/Projects/KSRSS/KSRSS/obj/Debug/KSRSS.csprojAssemblyReference.cache
 /home/antony/Projects/KSRSS/KSRSS/obj/Debug/KSRSS.csproj.CoreCompileInputs.cache
 /home/antony/Projects/KSRSS/KSRSS/obj/Debug/KSRSS.csproj.CopyComplete
 /home/antony/Projects/KSRSS/KSRSS/obj/Debug/KSRSS.dll
 /home/antony/Projects/KSRSS/KSRSS/obj/Debug/KSRSS.pdb
-/home/antony/Projects/KSRSS/KSRSS/bin/Debug/0Harmony.dll
-/home/antony/Projects/KSRSS/KSRSS/bin/Debug/ShaderLoader.dll
-/home/antony/Projects/KSRSS/KSRSS/bin/Debug/Utils.dll
-/home/antony/Projects/KSRSS/KSRSS/bin/Debug/Utils.pdb
-/home/antony/Projects/KSRSS/KSRSS/bin/Debug/ShaderLoader.pdb
-/home/antony/Projects/KSRSS/KSRSS/bin/Debug/CityLights.dll
-/home/antony/Projects/KSRSS/KSRSS/bin/Debug/EVEManager.dll
