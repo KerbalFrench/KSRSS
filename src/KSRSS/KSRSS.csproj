@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D9FB008-0B12-4068-B095-EE10D82ED36F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>KSRSS</RootNamespace>
+    <AssemblyName>KSRSS</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\KSP_1.6\KSP_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\KSP_new\KSP_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="JsonFx">
+      <HintPath>..\packages\JsonFx.2.0.1209.2802\lib\net35\JsonFx.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>..\packages\Lib.Harmony.1.2.0.1\lib\net35\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Utils">
+      <HintPath>..\..\..\Téléchargements\EnvironmentalVisualEnhancements-master\Utils\bin\Debug\Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="ShaderLoader">
+      <HintPath>..\..\..\Téléchargements\EnvironmentalVisualEnhancements-master\ShaderLoader\bin\Debug\ShaderLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="CityLights">
+      <HintPath>..\..\..\KSP_code\GameData\EnvironmentalVisualEnhancements\Plugins\CityLights.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Tiles.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rick.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
