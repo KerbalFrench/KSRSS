@@ -32,4 +32,3 @@ Install :
 
 > Installez KEX-CometTail (optionnel) : https://github.com/StollD/KopernicusExpansion-Continued/releases
 
-dscrd
