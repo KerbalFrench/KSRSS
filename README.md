@@ -31,3 +31,5 @@ Install :
 > Installez KEX-EVAFootprints (optionnel) : https://github.com/StollD/KopernicusExpansion-Continued/releases
 
 > Installez KEX-CometTail (optionnel) : https://github.com/StollD/KopernicusExpansion-Continued/releases
+
+dscrd
