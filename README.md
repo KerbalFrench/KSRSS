@@ -15,6 +15,7 @@ The grass and cactus textures are licensed MIT by Avera9eJoe and come from his m
 # Dependencies
 
 [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/)
+
 [KSRSS-Textures](https://github.com/KerbalFrench/KSRSS-Textures)
 
 # Compatibility
