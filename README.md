@@ -2,33 +2,26 @@
 
 Kerbin Size Real Solar System
 
-License : CC-BY-NC-SA 4.0 International 
+Cfg files are licensed CC-BY-NC-SA 4.0, textures are All Rights Reserved unless otherwise stated and plugin code is LGPLv3.
 
-The file KSRSS/Textures/grass00.dds is licensed MIT by Avera9eJoe and come from his mod, [Spectra](https://forum.kerbalspaceprogram.com/index.php?/topic/159443-16-spectra-v117-visual-compilation-1st-april-18/). All credit goes to him.
+Copyright (c) KSRSS Team - 2020
 
-The \*.cfg come from the [RealSolarSystem mod](https://forum.kerbalspaceprogram.com/index.php?/topic/177216-145-real-solar-system-v131-03-sep-2018/) and were modified by the KerbalFrench team.
+KSRSS is derived from [RSS](https://forum.kerbalspaceprogram.com/index.php?/topic/177216-173-real-solar-system-v164-26-nov-2019/). A huge thanks to NathanKell and the RO team for creating this mod. (CC-BY-NC-SA-4.0)
 
-All the files in KSRSS/KSRSSKopernicus/Comets come from the [RSS Expansion](https://github.com/PhineasFreak/RSSExpansion) mod, originally by pozine.
+67P and Halley are from [RSS Expansion](https://forum.kerbalspaceprogram.com/index.php?/topic/116275-105-rss-planets-moons-expanded-v0120-sedna-is-finally-here/) by pozine, licensed CC-BY 4.0. 
 
+The grass and cactus textures are licensed MIT by Avera9eJoe and come from his mod, [Spectra](https://forum.kerbalspaceprogram.com/index.php?/topic/159443-16-spectra-v117-visual-compilation-1st-april-18/). All credit goes to him.
 
-Need : 
+# Dependencies
 
-Kopernicus : https://forum.kerbalspaceprogram.com/index.php?/topic/140580-161-1-backports-kopernicus-kittopiatech/
+[Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/)
+[KSRSS-Textures](https://github.com/KerbalFrench/KSRSS-Textures)
 
-Kopernicus Expansion (for footprints and comet tails) : https://github.com/StollD/KopernicusExpansion-Continued/releases
+# Compatibility
 
-Install : 
+Configs for FAR, KEX-Footprints and KSC-Switcher are included in KSRSS.
 
-> Installez Kopernicus : https://github.com/Kopernicus/Kopernicus/releases
-/!\ Installez la version de Kopernicus correspondant à celle de votre jeu /!\
+KK configs avalaible [here](https://github.com/KerbalFrench/KK-KSRSS/releases).
 
-> Installez KSRSS-Textures : https://github.com/KerbalFrench/KSRSS-Textures/releases
-
-> Installez KSRSS : https://github.com/KerbalFrench/KSRSS/releases
-
-> Installez CTTP : https://github.com/Galileo88/Community-Terrain-Texture-Pack/releases
-
-> Installez KEX-EVAFootprints (optionnel) : https://github.com/StollD/KopernicusExpansion-Continued/releases
-
-> Installez KEX-CometTail (optionnel) : https://github.com/StollD/KopernicusExpansion-Continued/releases
+Configs for EVE and scatterer are in [KSRSSVE](https://github.com/KerbalFrench/KSRSSVE/releases).
 
