@@ -20,9 +20,9 @@ The grass and cactus textures are licensed MIT by Avera9eJoe and come from his m
 
 # Compatibility
 
-Configs for FAR, KEX-Footprints and KSC-Switcher are included in KSRSS.
+Configs for FAR, KEX-Footprints, Sigma Binary and KSC-Switcher are included in KSRSS.
 
 KK configs avalaible [here](https://github.com/KerbalFrench/KK-KSRSS/releases).
 
-Configs for EVE and scatterer are in [KSRSSVE](https://github.com/KerbalFrench/KSRSSVE/releases).
+Configs for EVE and scatterer are in [KSRSSVE](https://github.com/KerbalFrench/KSRSSVE/releases). The lite version doesn´t require scatterer.
 
