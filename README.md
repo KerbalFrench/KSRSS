@@ -22,7 +22,7 @@ The grass and cactus textures are licensed MIT by Avera9eJoe and come from his m
 
 # Compatibility
 
-Configs for FAR, KEX-Footprints, Sigma Binary and KSC-Switcher are included in KSRSS.
+Configs for FAR, KEX-Footprints, Sigma Binary, Distant Object Enhancement and KSC-Switcher are included in KSRSS.
 
 KK configs avalaible [here](https://github.com/KerbalFrench/KK-KSRSS/releases).
 
