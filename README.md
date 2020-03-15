@@ -12,7 +12,7 @@ KSRSS is derived from [RSS](https://forum.kerbalspaceprogram.com/index.php?/topi
 
 The grass and cactus textures are licensed MIT by Avera9eJoe and come from his mod, [Spectra](https://forum.kerbalspaceprogram.com/index.php?/topic/159443-16-spectra-v117-visual-compilation-1st-april-18/). All credit goes to him.
 
-# Dependencies
+## Dependencies
 
 [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/)
 
@@ -20,7 +20,7 @@ The grass and cactus textures are licensed MIT by Avera9eJoe and come from his m
 
 [Custom Barn Kit](https://forum.kerbalspaceprogram.com/index.php?/topic/109027-18x-custom-barn-kit-1120-19-october-2019-parachute-included/)
 
-# Compatibility
+## Compatibility
 
 Configs for FAR, KEX-Footprints, Sigma Binary, Distant Object Enhancement and KSC-Switcher are included in KSRSS.
 
