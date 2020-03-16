@@ -19,7 +19,7 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**GameData Screenchot**
+**GameData Screenshot**
 A screenshot of your GameData folder.
 
 **Logs**
@@ -29,7 +29,7 @@ Your KSP.log (in your KSP root folder) and your Kopernicus logs (in KSP_root/Log
  - OS: [e.g. Windows]
  - KSP Version:
  - KSRSS Version:
- - KSRSS Texture Pack: [e.g 4K]
+ - KSRSS Texture Pack: [e.g 8K]
  - KSRSSVE resolution: [e.g. LR]
 
 **Additional context**
