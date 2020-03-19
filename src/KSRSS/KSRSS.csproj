@@ -42,6 +42,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommNetModifier.cs" />
     <Compile Include="Tiles.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="rick.cs" />

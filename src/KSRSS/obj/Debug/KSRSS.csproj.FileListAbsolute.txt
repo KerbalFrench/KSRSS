@@ -80,7 +80,6 @@ C:\Users\kapat\Documents\GitHub\KSRSS\src\KSRSS\bin\Debug\UnityEngine.ClusterRen
 C:\Users\kapat\Documents\GitHub\KSRSS\src\KSRSS\bin\Debug\UnityEngine.CrashReportingModule.dll
 C:\Users\kapat\Documents\GitHub\KSRSS\src\KSRSS\bin\Debug\UnityEngine.PerformanceReportingModule.dll
 C:\Users\kapat\Documents\GitHub\KSRSS\src\KSRSS\bin\Debug\KSPAssets.XmlSerializers.dll
-C:\Users\kapat\Documents\GitHub\KSRSS\src\KSRSS\obj\Debug\KSRSS.csprojAssemblyReference.cache
 C:\Users\kapat\Documents\GitHub\KSRSS\src\KSRSS\obj\Debug\KSRSS.csproj.CopyComplete
 C:\Users\kapat\Documents\GitHub\KSRSS\src\KSRSS\obj\Debug\KSRSS.dll
 C:\Users\kapat\Documents\GitHub\KSRSS\src\KSRSS\obj\Debug\KSRSS.pdb
