@@ -2,7 +2,7 @@
 
 Kerbin Size Real Solar System
 
-Cfg files are licensed CC-BY-NC-SA 4.0, textures are All Rights Reserved unless otherwise stated and plugin code is LGPLv3.
+Cfg files are licensed CC-BY-NC-SA 4.0, textures are All Rights Reserved unless otherwise stated and plugin code is LGPLv3 with some licensed CC-BY-NC-SA 4.0 (see source files for details).
 
 Copyright (c) KSRSS Team - 2020
 

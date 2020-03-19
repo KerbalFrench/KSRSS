@@ -1,4 +1,7 @@
-﻿using System;
+﻿// This file is NOT licensed LGPLv3.
+// This file is licensed CC-BY-NC-SA 4.0 and was modified by the KSRSS Team. 
+// Original file can be found here https://github.com/KSP-RO/RealSolarSystem/blob/master/Source/Watchdogs.cs by KSP-RO Team
+using System;
 using UnityEngine;
 
 namespace KSRSS

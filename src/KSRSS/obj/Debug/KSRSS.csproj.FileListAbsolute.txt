@@ -83,3 +83,4 @@ C:\Users\kapat\Documents\GitHub\KSRSS\src\KSRSS\bin\Debug\KSPAssets.XmlSerialize
 C:\Users\kapat\Documents\GitHub\KSRSS\src\KSRSS\obj\Debug\KSRSS.csproj.CopyComplete
 C:\Users\kapat\Documents\GitHub\KSRSS\src\KSRSS\obj\Debug\KSRSS.dll
 C:\Users\kapat\Documents\GitHub\KSRSS\src\KSRSS\obj\Debug\KSRSS.pdb
+C:\Users\kapat\Documents\GitHub\KSRSS\src\KSRSS\obj\Debug\KSRSS.csprojAssemblyReference.cache
