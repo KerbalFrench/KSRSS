@@ -26,7 +26,7 @@ namespace KSRSS
         internal void Start()
         {
             if ((DateTime.Now.Day == 1 && DateTime.Now.Month == 4) || Environment.GetCommandLineArgs().Contains("-nggyu"))
-                System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+                System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=oHg5SJYRHA0");
         }
     }
 
