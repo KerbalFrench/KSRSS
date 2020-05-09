@@ -12,6 +12,10 @@ KSRSS is derived from [RSS](https://forum.kerbalspaceprogram.com/index.php?/topi
 
 The grass and cactus textures are licensed MIT by Avera9eJoe and come from his mod, [Spectra](https://forum.kerbalspaceprogram.com/index.php?/topic/159443-16-spectra-v117-visual-compilation-1st-april-18/). All credit goes to him.
 
+SigmaLoadingScreens is bundled with this mod and is covered by its own license.
+
+Titan loading screen by Zarbon. Used with permission.
+
 ## Dependencies
 
 [Kopernicus](https://github.com/Kopernicus/Kopernicus/releases/)
