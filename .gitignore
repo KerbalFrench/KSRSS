@@ -1,4 +1,5 @@
 *.bin
+KSRSSSettings.xml
 # User-specific files
 *.rsuser
 *.suo

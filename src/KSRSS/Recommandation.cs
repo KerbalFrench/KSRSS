@@ -14,8 +14,11 @@
     You should have received a copy of the GNU Lesser General Public License
     along with KSRSS.dll.  If not, see <https://www.gnu.org/licenses/>.
 */
+
+using System;
 using UnityEngine;
 using System.IO;
+using System.Xml;
 
 namespace KSRSS
 {
@@ -23,18 +26,35 @@ namespace KSRSS
     public class Recommandation : MonoBehaviour
     {
         private PopupDialog dialog;
+        private XmlNode popupNode;
+        private XmlDocument doc;
         void Start()
         {
             bool isVeInstalled = Directory.Exists(KSPUtil.ApplicationRootPath + "GameData/KSRSSVE");
-            if (!isVeInstalled)
+            doc = new XmlDocument();
+            if (File.Exists(KSPUtil.ApplicationRootPath + "GameData/KSRSS/KSRSSSettings.xml"))
+            {
+                doc.Load(KSPUtil.ApplicationRootPath + "GameData/KSRSS/KSRSSSettings.xml");
+            }
+            else
+            {
+                doc.LoadXml(@"<KSRSSSettings>
+                    <showPopup>True</showPopup>
+                    </KSRSSSettings>");
+            }
+            popupNode = doc.DocumentElement.SelectSingleNode("/KSRSSSettings/showPopup");
+            string showPopup = popupNode.InnerText;
+            if (!isVeInstalled && showPopup.Equals("True"))
             {
                 dialog = PopupDialog.SpawnPopupDialog(new Vector2(0.5f, 0.5f),
                     new Vector2(0.5f, 0.5f),
                     new MultiOptionDialog("KSRSSRecommandation",
                         "KSRSSVE is not a KSRSS dependency, but is highly recommended.\nIf you have a good PC, please consider installing KSRSSVE.",
                         "KSRSS",
-                        HighLogic.UISkin, new Rect(0.5f, 0.5f, 300f, 100f),
+                        HighLogic.UISkin, new Rect(0.5f, 0.5f, 350f, 100f),
                         new DialogGUIFlexibleSpace(),
+                        new DialogGUIToggle(false, "Do not show this popup anymore",
+                            ChangeXml, 100f, 40f),
                         new DialogGUIHorizontalLayout(
                             new DialogGUIFlexibleSpace(),
                             new DialogGUIButton("OK", CloseDialog, 140.0f, 30.0f, true),
@@ -47,6 +67,20 @@ namespace KSRSS
         {
             if (dialog != null)
                 dialog.Dismiss();
+        }
+        
+        void ChangeXml(bool set)
+        {
+            if (set)
+            {
+                popupNode.InnerText = "False";
+            }
+            else
+            {
+                popupNode.InnerText = "True";
+            }
+
+            doc.Save(KSPUtil.ApplicationRootPath + "GameData/KSRSS/KSRSSSettings.xml");
         }
     }
 }
