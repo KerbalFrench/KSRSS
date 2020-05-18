@@ -36,7 +36,7 @@ namespace KSRSS
 
             if (isVeInstalled && !isVeTextInstalled)
             {
-                message += "ERROR : KSRSSVE-Textures is missing!\nPlease install KSRSS-Textures and restart KSP.\n";
+                message += "ERROR : KSRSSVE-Textures is missing!\nPlease install KSRSSVE-Textures and restart KSP.\n";
             }
 
             if (!message.Equals(""))
