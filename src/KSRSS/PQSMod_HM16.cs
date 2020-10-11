@@ -1,4 +1,7 @@
-﻿/*  Copyright (c) KSRSS Team - 2020
+﻿/*  Copyright (c) 2017-2019 Dorian "StollD" Stoll
+    Copyright (c) 2020 TheGhastModding
+    Copyright (c) 2020 VabienArt
+    Copyright (c) 2020 KSRSS Team
     This file is part of KSRSS.dll.
 
     KSRSS.dll is free software: you can redistribute it and/or modify
@@ -14,20 +17,13 @@
     You should have received a copy of the GNU General Public License
     along with KSRSS.dll.  If not, see <https://www.gnu.org/licenses/>.
 */
-using System;
-using System.Linq;
-using UnityEngine;
-
 namespace KSRSS
 {
-    [KSPAddon(KSPAddon.Startup.EditorAny, false)]
-    public class Rick : MonoBehaviour
+    public class PQSMod_HM16 : PQSMod_VertexHeightMap
     {
-        internal void Start()
+        public override void OnVertexBuildHeight(PQS.VertexBuildData data)
         {
-            if ((DateTime.Now.Day == 1 && DateTime.Now.Month == 4) || Environment.GetCommandLineArgs().Contains("-nggyu"))
-                System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=oHg5SJYRHA0");
+            data.vertHeight += heightMapOffset + heightMapDeformity * HM16.SampleHeightmap16(data.u, data.v, heightMap, false);
         }
     }
-
 }
