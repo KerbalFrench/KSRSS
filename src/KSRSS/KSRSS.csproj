@@ -34,16 +34,30 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Desktop\KSP_ksrss_lite\KSP_x64_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
+    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Desktop\KSP_win64\KSP_x64_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Kopernicus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Downloads\Kopernicus-1.9.1-10\GameData\Kopernicus\Plugins\Kopernicus.dll</HintPath>
+    </Reference>
+    <Reference Include="Kopernicus.Parser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Downloads\Kopernicus-1.9.1-10\GameData\Kopernicus\Plugins\Kopernicus.Parser.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>..\..\..\..\..\Desktop\KSP_ksrss_lite\KSP_x64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Desktop\KSP_win64\KSP_x64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommNetModifier.cs" />
+    <Compile Include="HM16.cs" />
     <Compile Include="InstallChecker.cs" />
+    <Compile Include="PQSMod_HM16.cs" />
     <Compile Include="Recommandation.cs" />
     <Compile Include="Tiles.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
