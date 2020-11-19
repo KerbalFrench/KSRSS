@@ -59,6 +59,7 @@
     <Compile Include="InstallChecker.cs" />
     <Compile Include="PQSMod_HM16.cs" />
     <Compile Include="Recommandation.cs" />
+    <Compile Include="ROCColor.cs" />
     <Compile Include="Tiles.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="rick.cs" />
